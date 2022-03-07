@@ -1,6 +1,6 @@
-.bg-image {
+.blurred-image {
     /* The image used */
-    background-image: url("photographer.jpg");
+    background-image: var(--image-source);
 
     /* Add the blur effect */
     filter: blur(8px);
@@ -13,4 +13,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.blurred-image-stretched {
+    height:750px;
+    width: 100%;
+}
+
+.carousel-inner img {
+    height: 75rem;
 }
